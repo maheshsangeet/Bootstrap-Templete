@@ -1,4 +1,4 @@
-click here to view<a href=" https://maheshsangeet.github.io/Bootstrap-Templete/" >Demo</a>
+click here to view: https://maheshsangeet.github.io/Bootstrap-Templete/
 
 
 
