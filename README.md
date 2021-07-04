@@ -1,3 +1,3 @@
-<strong>click here to view: </strong>https://in0d3.csb.app/
+<strong>click here to view Demo </strong>https://maheshsangeet.github.io/Bootstrap-Templete/
 
-![Screenshot (9)](https://user-images.githubusercontent.com/74812363/121653678-948e1780-caba-11eb-9fcf-d8f3b44d4d68.png)
+![bootstrap-templete](https://user-images.githubusercontent.com/74812363/124391552-c8054000-dd0e-11eb-8db8-f8663670ea43.JPG)
