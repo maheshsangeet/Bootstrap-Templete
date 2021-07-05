@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="./style.css">
     <title>Bootstrap Templete</title>
 </head>
@@ -14,12 +16,12 @@
     <section class="first-page bg-light">
         <div class="container">
             <div class="row" >
-                <div class="col-lg-5 col-12 align-self-center pl-4 ">
+                <div class="col-lg-5 col-12 align-self-center pl-4 "  data-aos="fade-right" >
                     <p class="text-muted font-weight-light font-italic  font-lato" >Thanks for high-quality and fast work. They always give good results in all areas: from managing social networks and blogs to analytics and creating websites.</p>
                     <h5 class="text-dark mt-5 ">Julie C.</h5>
                     <h5 class="text-dark font-weight-normal pb-4">INTERFACE DESIGNER</h5>
                 </div>
-                <div class="col-lg-7 col-12">
+                <div class="col-lg-7 col-12" data-aos="fade-left">
                     <img src="./Images/jonathan.jpg" alt="image2" class="img-fluid  pl-lg-5 pl-0" width="100%">
                 </div>
             </div>
@@ -28,10 +30,10 @@
 
     <section class="second-page bg-image"><br><br>
         <div class="container ">
-            <h1 class="py-4 text-center font-domine">Our team</h1>
+            <h1 class="py-4 text-center font-domine" data-aos="zoom-in">Our team</h1>
 
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-12 card border border-light  mb-4  text-dark" style="width: 16rem;">
+                <div class="col-lg-3 col-md-6 col-12 card border border-light  mb-4  text-dark" style="width: 16rem;" data-aos="zoom-in-up">
                     <img src="./Images/mike-wilson.jpg" class="card-img-top" alt="mike-wilson">
                     <div class="card-body text-center bg-light">
                         <h4 class="card-title font-domine">Claire</h4>
@@ -45,7 +47,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-12 card border border-light  mb-4 text-dark" style="width: 16rem;">
+                <div class="col-lg-3 col-md-6 col-12 card border border-light  mb-4 text-dark" style="width: 16rem;" data-aos="zoom-in-up">
                     <img src="./Images/matthew-kane.jpg" class="card-img-top" alt="matthew-kane">
                     <div class="card-body text-center bg-light">
                         <h4 class="card-title font-name">Jane</h4>
@@ -59,7 +61,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-12  card border border-light  mb-4  text-dark" style="width: 16rem;">
+                <div class="col-lg-3 col-md-6 col-12  card border border-light  mb-4  text-dark" style="width: 16rem;" data-aos="zoom-in-up">
                     <img src="./Images/drew-graham.jpg" class="card-img-top" alt="drew-graham">
                     <div class="card-body text-center bg-light">
                         <h4 class="card-title font-domine">Jessica</h4>
@@ -73,7 +75,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-12  card border border-light  mb-4  text-dark" style="width: 16rem;">
+                <div class="col-lg-3 col-md-6 col-12  card border border-light  mb-4  text-dark" style="width: 16rem;" data-aos="zoom-in-up">
                     <img src="./Images/rawpixel-com.jpg" class="card-img-top" alt="rawpixel-com">
                     <div class="card-body text-center bg-light">
                         <h4 class="card-title  font-domine">Alice</h4>
@@ -94,11 +96,11 @@
     <section class="third-page " style="background-color: #232323;">
         <div class="container ">
             <div class="row" >
-                <div class="col-lg-7 col-12 ">
+                <div class="col-lg-7 col-12 " data-aos="fade-right">
                     <img src="./Images/andrew-neel.jpg" class="img-fluid pr-lg-5 pr-0" width="100%" alt="andrew-neel" >
                 </div>
 
-                <div class="col-lg-5 col-12  align-self-center pl-lg-0 pt-3 pl-4 text-light ">
+                <div class="col-lg-5 col-12  align-self-center pl-lg-0 pt-3 pl-4 text-light " data-aos="fade-left">
                     <h5 class="about  font-weight-light font-italic" >We are very pleased with the cooperation, the company listens to the client, they are not afraid to offer their options for implementing the marketing strategy and argue with the customer, which leads to better solutions and more successful projects.</h5>
                     <h5 class=" mt-5 ">David F.</h5>
                     <h5 class="font-weight-normal pb-4">DEVELOPER</h5>
@@ -124,5 +126,16 @@
             </div>
         </div>
     </div>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 300,
+          duration: 1000,
+      });
+    </script>
+  
 </body>
 </html>
